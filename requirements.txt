@@ -1,0 +1,6 @@
+# 三式排盘 Skill 运行依赖
+# 第三方 pip 包（未随仓库分发源码，pip install 获取；见 THIRD_PARTY.md）
+lunar-python>=1.4.8   # 农历/干支/节气/时辰，两个 Skill 的时间基准（MIT）
+
+# 测试依赖（各 scripts/tests/ 下回归测试）
+pytest>=7.0
